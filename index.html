@@ -3,17 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors js</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <header>
+        <h1>ROCK <span>PAPER</span> SCISSORS !</h1>
+    </header>
     <div class="container">
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissor">Scissor</button>
-    <div>
-        <p id="result">Good Luck!:3</p>
-        <p id="score">Score 0 - 0</p>
-    </div>
+
+        <div class="gamescreen"> 
+            <div> 
+                <p id="score"><span>Score:</span> 0 - 0</p> 
+                <p id="result">Good Luck!:3</p>
+            </div>
+            <div class="choices">
+                <div class="choice"> 
+                    <img id="human-choice" src="images/background.png" alt="">
+                    <p> Your Choice </p>
+                </div>
+                <div class="choice">
+                    <img id="computer-choice" src="images/background.png" alt="">
+                    <p>Computer Choice</p>
+                </div>
+            </div>
+        </div>
+        <div class="gamebtns">
+            <div class="btn">
+                <button id="rock">O</button>
+                <p>ROCK</p>
+            </div>
+            <div class="btn">
+                <button id="paper">X</button>
+                <p>PAPER</p>
+            </div>
+            <div class="btn">
+                <button id="scissor">Y</button>
+                <p>SCISSORS</p>
+            </div>
+            
+        </div>
+       
     </div>
     <script src="javascript.js"></script>
 </body>

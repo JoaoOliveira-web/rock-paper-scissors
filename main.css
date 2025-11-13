@@ -1,0 +1,81 @@
+@font-face {
+  font-family: ArcadeFont; /* set name */
+  src: url(fonts/arcadeclassic/ARCADECLASSIC.TTF); /* url of the font */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #e3cfaa;
+    text-align: center;
+    font-family: ArcadeFont;
+}
+
+header{
+    background-color: #5e292f;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family: ArcadeFont;
+    font-size: 100px;
+    color: 	#f55b1d;
+}
+
+header span{
+    color:#e0af46;
+}
+
+#score{
+    font-size: 46px;
+}
+
+#score>span{
+    color:#5e292f;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+}
+
+.choice {
+    height: 350px;
+}
+
+.choice img{
+    height: 90%;
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 3px solid #5e292f;
+}
+
+.choice p{
+    font-size: 22px;
+}
+
+.gamebtns{
+    display: flex;
+    justify-content: center;
+    gap:70px;
+}
+
+.gamebtns  .btn button{
+    font-family: ArcadeFont;
+    background-color:#f55b1d;
+    color:black;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 5px 2px 10px #5e292f;
+}
+
